@@ -15,7 +15,7 @@ UPTIME=$(uptime -p)                   # Get system uptime
 DATE_TIME=$(date)                     # Get current date and time
 DISTRO=$(lsb_release -d 2>/dev/null | cut -f2)  # Get Linux distribution
 
-# --- Display ---
+# --- Display Output ---
 echo "======================================"
 echo " Open Source Audit — $STUDENT_NAME"
 echo "======================================"
